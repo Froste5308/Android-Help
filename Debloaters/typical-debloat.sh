@@ -73,7 +73,7 @@ clear
 echo "Would You Like To Reboot Your Phone?"
 PS3='Please Select Your Choice: '
 options=("Reboot Now" "Reboot To Bootloader" "Reboot To Recovery" "End The Script")
-select opt in "${options[@]}'
+select opt in "${options[@]}"
 do
 case $opt in
 "Reboot Now")
