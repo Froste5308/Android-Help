@@ -25,8 +25,8 @@ fastboot flash vendor vendor.img
 fastboot flash vendor_dlkm vendor_dlkm.img
 fastboot flash product product.img
 clear
-echo "What Now?"
-PS3=("Reboot To System" "Reboot To Recovery" "Reboot To Bootloader" "Exit Script For Extended Flashing")
+PS3="What Now?"
+options=("Reboot To System" "Reboot To Recovery" "Reboot To Bootloader" "Exit Script For Extended Flashing")
 select opt in "${options[@]}"
 do
 case $opt in
