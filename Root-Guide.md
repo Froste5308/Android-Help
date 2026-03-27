@@ -8,7 +8,7 @@
 - fastboot flash boot/init_boot magisk_patched*.img 'fastboot flash boot magisk_patched*.img' or 'fastboot flash init_boot magisk_patched*.img'
 
 # If You Can NOT Find Your Stock Firmware
-- Again, Download The Magisk APK At https://github.com/topjohnwu/Magisk/releases
+- Again, Download The Magisk APK At [Magisk Releases](https://github.com/topjohnwu/Magisk/releases)
 - On Your Computer or Android Device With With ADB & Fastboot, Rename The 'Magisk*.apk' To 'Magisk.zip'
 - Go Find A Custom Recovery For Your Device, Like TWRP, OrangeFox, or A Custom ROM Recovery
 - Flash The Recovery, Typically With 'fastboot flash recovery recovery.img' or 'fastboot flash vendor_boot recovery.img'
