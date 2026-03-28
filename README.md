@@ -19,6 +19,6 @@ Although there are currently only Linux scripts, I may translate these to batch 
 - Unlocked Bootloader
 - USB Debugging enabled
   - ## ADB/Fastboot On The 3 Most Popular Package Managers
-    - Arch/Pacman - 'android-tools'
-    - Debian/ATP - 'adb' 'fastboot'
-    - Fedora/DNF - 'android-tools'
+    - Arch/Pacman -  `android-tools`
+    - Debian/ATP - `adb' 'fastboot`
+    - Fedora/DNF - `android-tools`
