@@ -16,7 +16,7 @@
 - Find 'Apply Update Via ADB', On Custom ROM Recoveries, It Is A Button Right In Front Of You, In TWRP, Click 'Advanced', Then 'ADB Sideload', When You're In Either Of These, Type 'adb sideload magisk*.zip'
 - For Above, If In OrangeFox, Click The Menu Button, Select Toolbox, Select 'ADB Sideload', And Then Confirm.
 
-# Linux Guide (Copy + Paste Into Terminal)
+# Linux Guide (Copy & Paste Into Terminal)
 - Please make sure you have wget, adb+fastboot, and the mtp tool so you can transfer files from the phone, the package name varies between distros (gvfs-mtp
 , mtp-tools, etc.)
 ```
