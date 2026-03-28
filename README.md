@@ -8,3 +8,6 @@ Although there are currently only Linux scripts, I may translate these to batch 
 - **Debloaters**
 - **Flashers**
 - **Guides**
+
+## Videos That Can Assist You
+- [How To Flash Custom ROM] (https://www.youtube.com/watch?v=Ox07cg6wC5A)
