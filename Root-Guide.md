@@ -29,15 +29,15 @@ adb install ~/Downloads/Magisk-v30.7.apk
 adb push /path/to/init_boot.img /sdcard/Download
 ```
 **Go Into Magisk And Patch The File, Then Continue**
-```bash
-adb shell "ls /sdcard/Download/magisk_patched*.img" | xargs -I {} adb pull "{}" ~/Downloads
-```
-```bash
-adb reboot fastboot
-```
-```bash
-mv magisk_patched* root_init_boot.img
-```
-```bash
-fastboot flash init_boot root_init_boot.img && fastboot reboot
-```
+  ```bash
+  adb shell "ls /sdcard/Download/magisk_patched*.img" | xargs -I {} adb pull "{}" ~/Downloads
+  ```
+  ```bash
+  adb reboot fastboot
+  ```
+  ```bash
+  mv magisk_patched* root_init_boot.img
+  ```
+  ```bash
+  fastboot flash init_boot root_init_boot.img && fastboot reboot
+  ```
