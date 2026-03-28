@@ -22,3 +22,9 @@
 ```
 wget https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk
 ```
+```
+adb install ~/Downloads/Magisk-v30.7.apk
+```
+```
+adb push /path/to/.img/file /sdcard/Download
+```
