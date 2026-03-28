@@ -12,4 +12,4 @@ Although there are currently only Linux scripts, I may translate these to batch 
 ## Videos That Can Assist You
 - [How To Flash Custom ROM](https://www.youtube.com/watch?v=gSRxThnfY8M)
 - [How To Root Your Android Phone](https://www.youtube.com/watch?v=qkuXl6m6Ghs)
-- [Text-Based Copy/Paste Guide By Me](./Documents/Root-Guide.md)
+- [Text-Based Copy/Paste Guide By Me For Rooting](./Documents/Root-Guide.md)
