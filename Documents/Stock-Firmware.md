@@ -1,5 +1,5 @@
-# Where To Find Stock Firmware For Your Phone/Tablet
-- This Guide Does Not Include Your Sketchy $30 LG or Onn. Tablet/Phone.
+<h1 align="center">Stock Firmware For Your Android!</h1>
+<h3 align="center">This Guide Does Not Include Your Sketchy $30 LG or Onn. Tablet/Phone.</h3>
 
 ## Google Pixel & Nexus Devices
 - **Pixels** [Pixel Official Releases](https://developers.google.com/android/images#stallion)
@@ -15,3 +15,7 @@
 - **[Samsung Firmware](https://samfw.com)**
   - **[Samsung ODIN Flasher For Windows](https://odindownload.com/)**
   - **[Samsung Heimdall Flasher For Linux](https://github.com/benjamin-dobell/heimdall)**
+
+## Xiaomi Devices
+- **[Xiaomi Device Firmware](https://mifirm.net/)**
+  - 
