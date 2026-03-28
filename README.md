@@ -10,4 +10,4 @@ Although there are currently only Linux scripts, I may translate these to batch 
 - **Guides**
 
 ## Videos That Can Assist You
-- [How To Flash Custom ROM] (https://www.youtube.com/watch?v=Ox07cg6wC5A)
+- [How To Flash Custom ROM](https://www.youtube.com/watch?v=Ox07cg6wC5A)
