@@ -7,9 +7,9 @@
 
 ## Nothing Devices - CMF By Nothing
 - [Nothing Archive](https://spike0en.github.io/nothing_archive/docs/firmware/)
-  -   [Official Applications](https://spike0en.github.io/nothing_archive/docs/official/)
-  -   [Community Applications](https://spike0en.github.io/nothing_archive/docs/apps/)
-      - [Main Page](https://github.com/spike0en/nothing_archive)
+  - [Official Applications](https://spike0en.github.io/nothing_archive/docs/official/)
+  - [Community Applications](https://spike0en.github.io/nothing_archive/docs/apps/)
+    - [Main Page](https://github.com/spike0en/nothing_archive)
 
 ## Samsung Devices
 - [Samsung Firmware](https://samfw.com)
