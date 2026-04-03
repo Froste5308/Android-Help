@@ -23,5 +23,5 @@ Although there are currently only Linux scripts, I may translate these to batch 
     - Debian/ATP - `adb` and `fastboot`
     - Fedora/DNF - `android-tools`
 
-## TODO:
+## TO-DO:
 - Make Batch Equivalents To Linux Scripts
