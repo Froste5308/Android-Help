@@ -1,8 +1,8 @@
 <h1 align="center">Android-Help</h1>
 <h3 align="center">A Simple Repository To Help With Android Tweaking<h3>
 
-## THIS REPOSITORY IS LINUX ONLY FOR SCRIPTS
-Although there are currently only Linux scripts, I may translate these to batch if I have the time.
+## THIS REPOSITORY IS LINUX ONLY FOR SCRIPTS (kinda)
+I am actually currently working on translating my bash scripts to batch, they're converted, just not perfected to my liking, unlike the bash scripts.
 
 ## ITEMS IN REPOSITORY
 - **Debloaters**
@@ -24,4 +24,7 @@ Although there are currently only Linux scripts, I may translate these to batch 
     - Fedora/DNF - `android-tools`
 
 ## TO-DO:
-- Make Batch Equivalents To Linux Scripts
+- [x] Create Guides For Rooting Android Phones
+- [x] Create Firmware Finder For Select Devices
+- [ ] Make Firmware Finder Support More Devices
+- [ ] Make Debloat & Flasher Scripts Support More Devices
