@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "This script flashes every single factory image file in your Android phone via Fastboot, depending on your phone, you may have to run
-'fastboot flashing unlock_critical' first. This script only works with fastboot devices, so special phones like Samsungs won't flash."
-sleep 12
+'fastboot flashing unlock_critical' first. This script only works with fastboot devices, so special phones like Samsungs won't flash. Press any key to continue."
+read -n 1 -s
 cp bootloader* ./bootloader.img || true
 cp radio* ./radio.img || true
 img=(
