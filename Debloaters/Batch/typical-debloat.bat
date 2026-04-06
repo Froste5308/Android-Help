@@ -13,8 +13,8 @@ cls
 echo 1 For End Script
 echo 2 For Reboot To Bootloader
 set /p command=
-if %command% == 1 goto leave
-if %command% == 2 goto rb
+if "%command%" == "1" goto leave
+if "%command%" == "2" goto rb
 :leave
 exit
 :rb
