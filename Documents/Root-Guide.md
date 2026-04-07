@@ -36,7 +36,8 @@
   - Find the `init_boot.img` and pull it to the Downloads folder
 - Second, Download [Magisk](https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk)
 - `adb install Magisk-v30.7.apk`
+
 **Linux / MacOS**
-  ```bash
-  adb push ~/Downloads/init_boot.img /sdcard/
-  ```
+```bash
+adb push ~/Downloads/init_boot.img /sdcard/
+```
