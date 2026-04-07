@@ -1,43 +1,33 @@
-## How To Root Any Android Phone
-- Download Magisk APK At [Magisk Releases](https://github.com/topjohnwu/Magisk/releases)
-- Find The Stock Firmware For Your Device And Pull boot.img Or init_boot.img
-- Install The Magisk App
-- Patch Your .img File
-- Bring The Patched File To Your Flashing Device (PC or Other Android With ADB & Fastboot)
-- 'adb reboot fastboot'
-- fastboot flash boot/init_boot magisk_patched*.img 'fastboot flash boot magisk_patched*.img' or 'fastboot flash init_boot magisk_patched*.img'
+<h1 align=center>How To Root Your Android Phone!</h1>
 
-## If You Can NOT Find Your Stock Firmware
-- Again, Download The Magisk APK At [Magisk Releases](https://github.com/topjohnwu/Magisk/releases)
-- On Your Computer or Android Device With With ADB & Fastboot, Rename The 'Magisk*.apk' To 'Magisk.zip'
-- Go Find A Custom Recovery For Your Device, Like TWRP, OrangeFox, or A Custom ROM Recovery
-- Flash The Recovery, Typically With 'fastboot flash recovery recovery.img' or 'fastboot flash vendor_boot recovery.img'
-- Reboot Into The Custom Recovery
-- Find 'Apply Update Via ADB', On Custom ROM Recoveries, It Is A Button Right In Front Of You, In TWRP, Click 'Advanced', Then 'ADB Sideload', When You're In Either Of These, Type 'adb sideload magisk*.zip'
-- For Above, If In OrangeFox, Click The Menu Button, Select Toolbox, Select 'ADB Sideload', And Then Confirm.
+<h2 align=center>Prerequisites</h2>
 
-# Linux Guide (Copy & Paste Into Terminal)
-- Please make sure you have wget, adb+fastboot, and the mtp tool so you can transfer files from the phone, the package name varies between distros (gvfs-mtp
-, mtp-tools, etc.)
-```bash
-wget https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk
-```
-```bash
-adb install ~/Downloads/Magisk-v30.7.apk
-```
-```bash
-adb push /path/to/init_boot.img /sdcard/Download
-```
-**Go Into Magisk And Patch The File, Then Continue**
-```bash
-adb shell "ls /sdcard/Download/magisk_patched*.img" | xargs -I {} adb pull "{}" ~/Downloads
-```
-```bash
-adb reboot fastboot
-```
-```bash
-mv magisk_patched* root_init_boot.img
-```
-```bash
-fastboot flash init_boot root_init_boot.img && fastboot reboot
-```
+- Enable OEM Unlocking On Your Android Device (Some Devices Do Not Support This Feature)
+  - Go To Settings --> About Phone --> Software Information --> Click The Build Number Many Times Until It Asks For Your Pin Or Says You're A Developer
+  - Go Back To The Main Settings Page --> System --> Developer Options
+  - Toggle **OEM Unlocking**, THIS WILL ERASE ALL OF YOUR DATA LATER ON!!!
+- Get A Computer With Platform Tools Installed (ADB & Fastboot)
+  - Windows
+    - Click [This](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) To Download Platform Tools
+      - Unzip It
+      - When You Have A Terminal In The Directory Of Platform Tools, You Can Run ADB & Fastboot Commands
+  - Linux
+    - Download ADB & Fastboot Via Your Distribution's Package Manager
+      - Pacman
+        - `sudo pacman -S android-tools`
+      - Debian
+        - `sudo apt install adb fastboot`
+      - Fedora
+        - `sudo dnf install android-tools`
+    - If Your Distro Does Not Use One Of These Package Managers, Either Try Typing `adb`, `fastboot`, or `android-tools` Into Your Package Manager's Installation Command, or Follow This Guide, This Following Guide Works Without Sudo Permissions
+      - Click [This](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
+        - Unzip It
+        - When You Have A Terminal In The Directory Of Platform Tools, You Can Run ADB & Fastboot Commands
+    - MacOS
+      - Open Your Terminal
+        ```bash
+        /bin/bash -c "$(curl -fsSL https://githubusercontent.com)"
+        brew install --cask android-platform-tools
+        ```
+      
+<h2 align=center>Getting To The Root of The Topic</h2>
