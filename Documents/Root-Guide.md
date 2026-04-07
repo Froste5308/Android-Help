@@ -31,3 +31,6 @@
         ```
       
 <h2 align=center>Getting To The Root of The Topic</h2>
+
+- First, Find The Stock Firmware For Your Device [Here](./Stock-Firmware.md)
+- 
